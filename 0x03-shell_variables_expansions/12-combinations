@@ -1,2 +1,2 @@
 #!/bin/bash
-arr=({a..z}{a..z}); printf '%s\n' "${arr[@]/%oo/}" | tr -s "\n"
+arr=({a..z}{a..z}) printf '%s\n' "${arr[@]/%oo/}" | tr -s "\n"
